@@ -2684,6 +2684,7 @@ input[name="tab_item"] {
 #case_example03 li{
 	margin: 4px;
 	width: 155px;
+	font-size: 1em;
 }
 .case_example03_btn{
 	width:129px;
