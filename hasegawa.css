@@ -997,7 +997,7 @@ footer img{
 	display:inline-block;
 	position: absolute;	
 }
-.head_image h1,#service_headimage h1,#global_headerimg01 h1,#global_headerimg02 h1{
+.head_image h1,#service_headimage h1,#global_headerimg01 h1,#global_headerimg02 h1,#contact_headerimg02 h1{
 	font-family: "HGP明朝B";
 	color: #003399;
 	font-size: 40px;
@@ -1029,7 +1029,8 @@ footer img{
 	line-height: 323px;
 	font-size: 41px;
 }
-.head_image h1,#service_headimage h1{
+.head_image h1,#service_headimage h1,#contact_headerimg02 h1
+{
 	font-family: "HGP明朝B";
 	color: #003399;
 	font-size: 45px;
@@ -1063,7 +1064,7 @@ footer img{
 	position: absolute;	
 	left:0;
 }
-.head_image h1,#service_headimage h1{
+.head_image h1,#service_headimage h1,#contact_headerimg02 h1{
 	font-family: "HGP明朝B";
 	color: #003399;
 	line-height: 296px;
@@ -2825,6 +2826,15 @@ input[name="tab_item"] {
 	top:0px;
 	/* z-index: 100; */
 }
+#contact_headerimg02 h1{
+	width: 259px;
+	top:40px;
+}
+}
+@media screen and (max-width:768.98px) {
+#contact_headerimg02 h1{
+	top:0;
+}
 }
 	
 /* ========================================
@@ -3009,4 +3019,20 @@ padding-left: 25px;
 	width: 399px;
 }
 }
-
+@media screen and (max-width:575.98px) {
+#contact{
+	height: 1603px;
+}
+#tel_contact h2, #mail_contact h3, #form_contact h4{
+	width: 102%;
+}
+form{
+	width: 512px;
+}
+.form_contents{
+	width: 354px;
+}
+#form_contact table{
+	margin-left: -50px;
+}
+}
