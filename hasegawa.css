@@ -683,6 +683,9 @@ section{
 #introduction{
 	width: 575px;
 }
+.btn a{{
+	letter-spacing:0.1em;
+}
 }
 /* ========================================
    トップページ商品紹介ここから
@@ -922,7 +925,7 @@ footer img{
 }
 @media screen and (max-width: 575.98px) {
 #tp_footer{
-	margin-top: 755px;
+	margin-top: 985px;
 }
 }
 /* ========================================
@@ -2674,7 +2677,8 @@ input[name="tab_item"] {
 	width: 575px;
 }
 #box1,#box2,#box3{
-	background-size: 87%;
+	/* background-size: 87%; */
+	background-size: 167px 109px;
 	margin-right: -10px;
 }
 #case_example03 li{
