@@ -683,7 +683,7 @@ section{
 #introduction{
 	width: 575px;
 }
-.btn a{{
+.btn a{
 	letter-spacing:0.1em;
 }
 }
