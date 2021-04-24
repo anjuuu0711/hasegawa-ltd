@@ -939,6 +939,7 @@ footer img{
 	width: 689px;
 	height: 44px;
 	margin: 0 auto;
+	display: block;
 }
 #footer_nav li{
 	border-left: 1px solid #4e4e4c;
