@@ -173,7 +173,7 @@ header{
 	float: left;
     background-image: url(image/hasegawa_top-assets/underline.png) ,url(image/hasegawa_top-assets/nav_button.png);
     background-repeat: no-repeat;
-    background-position: left 50% top 48px,center;
+    background-position: left 50% top 48px,top 10px center;
     background-size: 80%,100% 64%;
     height: 79px;
     width: 15.9%;
